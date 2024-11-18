@@ -49,7 +49,7 @@ function DashboardHome() {
 
     try {
       // Make webhook call to Make.com
-      const response = await fetch('YOUR_MAKE_WEBHOOK_URL', {
+      const response = await fetch('https://hook.eu2.make.com/oferrnmp32pj69q4zkra1bhha1auqt8e', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
